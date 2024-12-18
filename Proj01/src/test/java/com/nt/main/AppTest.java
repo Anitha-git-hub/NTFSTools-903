@@ -41,17 +41,19 @@ public class AppTest {
        
     }
 
-	/*
-	 * @Test public void testSumWithZeroes() { int x=0; int y=0; int expected=0; int
-	 * actual=ap.sum(x, y); assertEquals(expected,actual);
-	 * 
-	 * }
-	 * 
-	 * @Test public void testSumWithNonZeroes() { int x=0; int y=1; int expected=1;
-	 * int actual=ap.sum(x, y); assertEquals(expected,actual);
-	 * 
-	 * }
-	 */
+    @Test public void testSumWithZeroes() { 
+    	int x=0; int y=0;
+    	int expected=0;
+    	int actual=ap.sum(x, y); 
+    	assertEquals(expected,actual);
+	 }
+	 @Test public void testSumWithNonZeroes() { 
+		 int x=0; int y=1;
+		 int expected=1;
+		 int actual=ap.sum(x, y);
+		 assertEquals(expected,actual);
+	 }
+	 
     @AfterAll
     public static void clearOnce() {
     	ap=null;
