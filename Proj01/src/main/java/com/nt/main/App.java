@@ -19,3 +19,4 @@ public class App {
         System.out.println("sum is::"+result);
     }
 }
+// to avoid the conflict we have to pull the code at regular intervals of time/pull the code before commit and push
