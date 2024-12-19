@@ -14,16 +14,13 @@ public class NetBanking {
 	public String closeAccount() {
 		return "account closed successfully";
 	}
-<<<<<<< HEAD
 	public String closeAccount2() {
 		return "account2 closed successfully";
 	}
 	
-
-=======
 	public void end() {
 		System.out.
 		println("hello iam from netbanking stash");
-		}
->>>>>>> stash
+	}	
+	
 }
