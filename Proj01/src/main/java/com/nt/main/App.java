@@ -4,13 +4,13 @@ public class App {
 	public int sum(int x,int y) {
 		return x+y;
 	}
-<<<<<<< HEAD
+
 	public int div(int x,int y) {
 		return x-y;
-=======
+	}
 	public int mul(int x,int y) {
 		return x*y;
->>>>>>> branch 'master' of https://github.com/Anitha-git-hub/NTFSTools-903.git
+
 	}
     public static void main(String[] args) {
         System.out.println("Hello World!");
