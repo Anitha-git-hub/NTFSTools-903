@@ -14,6 +14,9 @@ public class NetBanking {
 	public String closeAccount() {
 		return "account closed successfully";
 	}
+	public String closeAccount2() {
+		return "account2 closed successfully";
+	}
 	
 
 }
