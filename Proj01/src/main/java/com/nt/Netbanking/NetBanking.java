@@ -14,6 +14,5 @@ public class NetBanking {
 	public String closeAccount() {
 		return "account closed successfully";
 	}
-	
 
 }
