@@ -17,7 +17,6 @@ public class NetBanking {
 	public String closeAccount2() {
 		return "account2 closed successfully";
 	}
-<<<<<<< HEAD
 	
 	public void end() {
 		System.out.
@@ -26,8 +25,4 @@ public class NetBanking {
 	public void abc() {
 		System.out.println("abc");
 	}
-	
-=======
-
->>>>>>> refs/heads/master
 }
