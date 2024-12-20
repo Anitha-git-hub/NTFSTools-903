@@ -22,5 +22,8 @@ public class NetBanking {
 		System.out.
 		println("hello iam from netbanking stash");
 	}	
+	public void abc() {
+		System.out.println("abc");
+	}
 	
 }
