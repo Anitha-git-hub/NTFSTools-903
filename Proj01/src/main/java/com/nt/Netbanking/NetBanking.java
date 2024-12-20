@@ -25,4 +25,7 @@ public class NetBanking {
 	public void abc() {
 		System.out.println("abc");
 	}
+	public void xyz(){
+		System.out.println("xyz");
+	}
 }
